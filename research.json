@@ -1,0 +1,113 @@
+{
+ "built": "2026-11-07",
+ "business": "Riverview Kitchen",
+ "category": "Café",
+ "city": "Durham, UK",
+ "imageNotes": {
+  "licence": "All photos free-licensed (Pexels / Unsplash). Every photo was downloaded and viewed for actual subject vs trade before use.",
+  "rejected": [
+   "Pexels 730922 (pancakes) — dead link, 404 on download.",
+   "Pexels 35272053 (two dogs at café) — visible third-party 'BOON COFFEE' shop signage.",
+   "Pexels 30299143-area pancakes on white plate — flat pancakes with a purple colour cast; rejected on viewing.",
+   "Pexels 8480766 (full English close-up, cutting sausage) — messy close-up, less appetising.",
+   "Pexels 37648015-area croissant display — visible '-50%' sale signage.",
+   "Unsplash photo-1546039907-7fa05f864c02 — hummus plate, wrong trade.",
+   "Unsplash photo-1560963805-6c64417e3413 — raw fish / crudo dish, wrong trade.",
+   "Unsplash photo-1488923333055-408250825df3 — fried food plate, wrong trade.",
+   "Unsplash photo-1463797221720-6b07e6426c24 — café interior but with skis on the wall (ski-lodge look), wrong fit for a Durham riverside café.",
+   "Unsplash photo-1576092762791-dd9e2220abd1 — plain dark wood texture, no subject.",
+   "Unsplash photo-1615800098799-0ccb261b1f92 — blank beige paper, no subject.",
+   "Pexels 8294721 (riverside) — stark modern concrete walkway, wrong feel for old-town Durham.",
+   "Pexels 9806581 (riverside at dusk) — dark and moody, steps read oddly.",
+   "Pexels 4869422 (eggs benedict close-up) — usable but a third benedict shot; not needed.",
+   "Pexels 31589755 (riverside walkway, Bristol) — viewed and good, but its 1600px WebP would not compress under 250 KB at any usable quality; swapped for Pexels 31484674.",
+   "Pexels 30403209 (croissant pile) — viewed and good, but the ID was already in design-log.json (entry 46); swapped for Pexels 17581159.",
+   "Pexels 27969779 (croissants on slate) — viewed: visible '-50%' sale signage; rejected.",
+   "Unsplash photo-1501339847302-ac426a4a7cbb (café interior with lit CAFE sign) — VIEWED and on-trade, but the ID was already used by Red Elm Cafe, Tacoma (2026-11-03, design-log image_ids key); coordinator found the reuse on 2026-11-07 with a normalized cross-key check and replaced the file with Pexels 34104248 (warm café interior with wooden tables and booth seating, viewed, verified fresh)."
+  ],
+  "sourcingNote": "Unsplash.com search pages are blocked in this build environment (HTTP 401 via curl; browser.open policy-blocked), so Unsplash IDs were taken from real Unsplash image URLs embedded in indexed pages found via web search, and Pexels IDs from real Pexels search pages fetched by curl. Every image was downloaded from images.unsplash.com / images.pexels.com and viewed before use; no ID is reused from design-log.json. Coordinator correction 2026-11-07: one ID had been reused (see rejected list) and was replaced; after the fix no ID is reused from design-log.json (verified by normalized check across imageIds + image_ids keys)."
+ },
+ "reviewThemes": [
+  "Legendary, generous pancake stacks",
+  "Dog-friendly — a dog got a sausage",
+  "Riverside setting with a lovely view of the river",
+  "Full English breakfast",
+  "Egg Benedict",
+  "Friendly staff",
+  "Quality and quantity of food",
+  "Baked goods crafted on-site from scratch",
+  "Ethically sourced, budget-friendly menu",
+  "Dine-in and takeout"
+ ],
+ "slug": "riverview-kitchen-durham",
+ "sources": [
+  {
+   "field": "email, phone, address, hours, rating, review themes, Facebook link",
+   "note": "ThreeBestRated Durham cafés listing page; Riverview Kitchen entry lists email, phone, address, hours and 4.8 rating with 116/120 inspection and 'Reviews Accuracy of 2.1K'.",
+   "url": "https://threebestrated.co.uk/cafes-in-durham"
+  },
+  {
+   "field": "no website",
+   "note": "Facebook is the business's only web presence. Guessed domains riverviewkitchen.co.uk and riverviewkitchendurham.co.uk do not resolve (curl HTTPS 000, verified 7 Nov 2026).",
+   "url": "https://www.facebook.com/Riverviewkitchendurham"
+  }
+ ],
+ "unverified": [
+  {
+   "detail": "ThreeBestRated lists Friday as '8pm–8pm', an obvious typo. Site uses 9am–8pm for Friday (matching every other day). Do not show the typo on the site.",
+   "field": "Friday hours"
+  },
+  {
+   "detail": "Trip101 lists different hours from ThreeBestRated. The conflict is recorded here only; the site shows the ThreeBestRated hours (9am–8pm daily) and does not show conflicting hours.",
+   "field": "Opening hours (second source conflict)"
+  },
+  {
+   "detail": "Not separately verified. The site states only the ThreeBestRated figure ('around 2,100 reviews') and never states a Google review count.",
+   "field": "Google review count"
+  },
+  {
+   "detail": "No Instagram handle verified. Instagram is omitted from the site entirely.",
+   "field": "Instagram"
+  },
+  {
+   "detail": "The brief describes the café as sitting in a 17th-century setting. This was supplied in the build brief, not independently verified against ThreeBestRated or Facebook. The site says 'historic riverside setting' / 'old town' and does not assert a specific building date.",
+   "field": "17th-century setting"
+  },
+  {
+   "detail": "No prices verified. The site shows 'Prices on request' once, in the menu section only.",
+   "field": "Prices"
+  },
+  {
+   "detail": "Not verified. None appear on the site.",
+   "field": "Year founded, staff names, awards, certifications"
+  },
+  {
+   "detail": "No booking system verified (no website). The site invites visitors to call ahead rather than claiming an online booking flow.",
+   "field": "Booking policy"
+  }
+ ],
+ "verifiedFacts": {
+  "address": "20 Silver Street, Durham DH1 3RB, UK",
+  "email": "riverviewkitchendurham@gmail.com",
+  "facebook": "https://www.facebook.com/Riverviewkitchendurham",
+  "hasWebsite": false,
+  "hours": {
+   "friday": "9am–8pm",
+   "monday": "9am–8pm",
+   "saturday": "9am–8pm",
+   "sunday": "9am–8pm",
+   "thursday": "9am–8pm",
+   "tuesday": "9am–8pm",
+   "wednesday": "9am–8pm"
+  },
+  "locationNotes": "Riverside setting in Durham old town, on Silver Street.",
+  "name": "Riverview Kitchen",
+  "phone": "0191 384 5777",
+  "rating": {
+   "inspection": "116/120",
+   "reviewCountApprox": "~2,100 (listed as \"Reviews Accuracy of 2.1K\")",
+   "score": 4.8,
+   "source": "ThreeBestRated"
+  }
+ }
+}
